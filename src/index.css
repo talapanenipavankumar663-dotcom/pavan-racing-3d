@@ -1,0 +1,29 @@
+html, body, #root {
+  margin: 0;
+  width: 100%;
+  min-height: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #020812;
+  color: #edf7ff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  overscroll-behavior: none;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+button {
+  touch-action: manipulation;
+}
+
+#root {
+  min-height: 100vh;
+}
